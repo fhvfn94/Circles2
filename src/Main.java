@@ -5,7 +5,8 @@ public class Main {
         //task3();
         //taskTwo1();
         //taskTwo2();
-        taskTwo3();
+        //taskTwo3();
+        taskTwo4();
     }
     public static void task1(){
         int result = 0;
@@ -79,5 +80,11 @@ public class Main {
             i++;
         }
 
+    }
+    public static void taskTwo4(){
+        int f = 5;
+        for (int i = f; i < 31; i += 7) {
+            System.out.println("Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет.");
+        }
     }
 }
