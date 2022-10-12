@@ -6,7 +6,9 @@ public class Main {
         //taskTwo1();
         //taskTwo2();
         //taskTwo3();
-        taskTwo4();
+        //taskTwo4();
+        //taskThree1();
+        taskThree2();
     }
     public static void task1(){
         int result = 0;
@@ -85,6 +87,23 @@ public class Main {
         int f = 5;
         for (int i = f; i < 31; i += 7) {
             System.out.println("Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет.");
+        }
+    }
+    public static void taskThree1(){
+        int now = 2022;
+        int start = now - 200;
+        int future = now + 100;
+        for (int i = start; i < future; i++) {
+            if (i % 79 == 0){
+                System.out.println(i);
+            }
+        }
+    }
+    public static void taskThree2(){
+        int r = 0;
+        for (int i = 1; i <=10; i++) {
+            r = 2 * i;
+            System.out.println(r);
         }
     }
 }
