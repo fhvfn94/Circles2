@@ -4,7 +4,8 @@ public class Main {
         //task2();
         //task3();
         //taskTwo1();
-        taskTwo2();
+        //taskTwo2();
+        taskTwo3();
     }
     public static void task1(){
         int result = 0;
@@ -62,5 +63,21 @@ public class Main {
             }
             i++;
         }
+
+    }
+    public static void taskTwo3() {
+        int salary = 15000;
+        int r = 0;
+        int i = 0;
+        int m = 12 * 9;
+        while (i <= m){
+            r = r + r / 100 * 7;
+            r += salary;
+            if (i % 6 == 0){
+                System.out.println("месяц " + i + " денег " + r);
+            }
+            i++;
+        }
+
     }
 }
